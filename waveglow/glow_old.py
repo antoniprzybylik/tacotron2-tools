@@ -1,4 +1,3 @@
-import copy
 import torch
 from .glow import Invertible1x1Conv, remove
 
