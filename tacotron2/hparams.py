@@ -1,5 +1,5 @@
 import tensorflow as tf
-from text import symbols
+from .text import symbols
 
 class AttrDict(dict):
     def __init__(self, *args, **kwargs):
